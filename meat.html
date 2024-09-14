@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="https://em-content.zobj.net/source/apple/155/earth-globe-europe-africa_1f30d.png"
+        type="image/x-icon" />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+        rel="stylesheet">
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+</head>
+
+<body>
+    <!-- cover, headline & byline -->
+    <div class="parallax"></div>
+
+    <div class="hl">
+        <h5>Food & Business</h5>
+        <h1>Could Future Meat Alternatives Help Us Achieve Sustainability?</h1>
+        <h2><a href="www.linkedin.com/in/chiayu-wang"><b>Chiayu Wang</b></a>, last updated on JULY 15 2024</h2>
+    </div>
+
+    <p>As the global population becomes increasingly aware of the environmental and health impacts of meat
+        consumption, the demand for sustainable solutions appears to be declining in the UK, particularly following
+        the COVID-19 pandemic. What stops consumers from taking in meat alternatives? Are there any other future
+        choices could help us achieve sustainability?</p>
+
+    <!-- paragraph -->
+
+    <h3>
+        <p>Way Back into Meat as Flexitarians Decrease</p>
+    </h3>
+
+    <p>A growing number of people in the UK are reducing their meat consumption for health and environmental causes. A
+        survey by the <a href="https://smartproteinproject.eu/">Smart Protein</a> project on dietary lifestyles shows
+        that 48% of British people cut down on meat
+        intake in 2023, an increase of 11% compared to 2021.</p>
+
+    <p>Instead of going vegetarian or vegan directly, some people are adopting a <b>flexitarian</b> diet on a trial
+        basis.
+        Flexitarians actively incorporate plant-based meals into their diet while also embracing some meat and other
+        animal foods in moderation, a practice also known as <b>casual vegetarianism</b>.</p>
+
+    <p>However, the latest statistics suggest a slightly reverse trend in the UK. Britons appear to be falling back in
+        love with meat again and leave their flexitarian diet behind.</p>
+
+    <!-- dietary lifestyle -->
+    <div class="graph" id="dietary-container">
+        <svg id="dietary"></svg>
+        <script src="dietary.js"></script>
+    </div>
+
+    <p>The proportion of flexitarians reached its highest
+        at 16% in 2022 but shortly reverted to the previous levels. In contrast, the figure of meat eaters has been
+        steadily increasing since 2021, while the percentages of vegan, vegetarian, and pescetarian diets have remained
+        relatively low over the last five years.</p>
+
+    <h3>
+        <p>Protein Competition Intensifies BUT Market Facing Downturns</p>
+    </h3>
+
+    <p>This flexible dietary change previously gave rise to the rapid development of meat alternatives, which offer
+        supplemental nutrients for vegan and vegetarian meals.</p>
+
+    <p>According to the Good Food Institute, the UK ranks Europe’s second biggest market of plant-based meat and had the
+        third highest average consumption in 2022. The Meat alternative sector is also the most developed among all
+        categories in the UK plant-based food market, reaching £474.5 million in revenue during the same period.</p>
+
+    <p>Even so, recent research by Mintel reveals a continuous decline in the value and volume of meat alternatives
+        since 2022, after the market enjoyed strong growth amid the COVID-19 lockdowns.</p>
+
+    <!-- value & volume sales change -->
+
+    <div class="graph">
+        <svg id="sale"></svg>
+        <script src="sale.js"></script>
+    </div>
+
+    <p>Retail sales of meat alternatives in the UK dropped 4% in 2023, following a failing 2022 with revenue declines of
+        6.8%. In terms of quantity, meat alternatives sold remained to decrease in both years, facing downturns of over
+        12% consecutively. The recession is expected to persist until 2026, in which the meat alternatives market may
+        regain its momentum.</p>
+
+    <p>Quorn, the UK’s leading brand in meat alternatives, encountered similar stagnation, reporting <a
+            href="https://meatmanagement.com/?s=alternative">a 4% revenue
+            decline earlier this year attributed to “continued category softness”</a>.</p>
+
+    <div>
+        <img class="s-img" src="quorn.jpg">
+        <figcaption>Quorn's popular frozen alternative protein products include plant-based mince and crispy nuggets.
+        </figcaption>
+
+    </div>
+
+    <p>A Quorn spokesperson explains: “The market has been inundated with new product and brand launches in recent
+        years, and these have not always kept shoppers coming back.” Quorn aims to address consumers’ major
+        concerns—affordability and taste—when it comes to purchasing meat alternatives.</p>
+
+    <p>The declining sales and consumption is predominantly a result of inflation and rising prices post-pandemic,
+        despite the ongoing trend of eating sustainably for future generations. According to Statista, 2021 marked a
+        turning point for the meat alternative market. It saw the fastest growth by 23.5% in consumption and the average
+        price dropped to its lowest.</p>
+
+    <!-- price & consumption -->
+    <div class="graph">
+        <svg id="price"></svg>
+        <script src="price.js"></script>
+    </div>
+
+    <p>A stabilising trajectory emerged following the market’s success in 2021, with consumption reaching a higher level
+        than in 2019 and the price staying at around £9. Price plays a crucial role in this market, significantly
+        influencing consumption patterns. While the initial adoption of plant-based meat was strong, sustained high
+        prices appear to have led to a plateau in future consumption.</p>
+
+    <p>The rise of meat alternatives presents a long-term threat to the traditional meat market. ​​In 2022, plant-based
+        meat prices increased by 4% on average, whereas pre-packaged conventional meat prices rose by 10%.</p>
+
+    <p>The latest report from the Agriculture and Horticulture Development Board (AHDB) demonstrates that the average
+        price of a main meal with meat alternatives is nearly double that of a meat-free meal, aligning closely with the
+        costs of a meal containing traditional meat. Statistics also indicate that plant-based meat alternative products
+        were 3.3% more expensive than their animal-based counterparts.</p>
+
+    <p>Once the prices of meat alternatives drop and financial pressure eases, the appeal of sustainability is expected
+        to drive 28% of processed meat buyers to consider consuming more plant-based meat products or protein-rich
+        ingredients, according to a Mintel’s survey.</p>
+
+    <p>In response to the growing trend towards green dietary choices, several global chain restaurants, including TGI
+        Fridays and Taco Bell, have begun to embrace plant-based meat into their menu offerings.</p>
+
+    <!-- vegan restaurant photos -->
+
+    <div class="gallery">
+
+        <img class="g-img" src="farmacy.jpg">
+
+        <img class="g-img" src="temple.jpg">
+
+        <img class="g-img" src="planet.jpg">
+
+    </div>
+
+    <figcaption>London boasts a variety of vegan and vegetarian restaurants offering diverse culinary styles, including
+        fast food and Chinese cuisine.</figcaption>
+
+    <p>Temple of Seitan, one of London’s earliest established vegan fast food restaurants, further partnered with famous
+        tofu brand Tofoo to launch chicken flavoured faux meat products in May.</p>
+
+    <p>Anbessa Archibald has been working in the Temple of Seitan’s kitchen for over a year. He has not only observed an
+        increase in vegan diners at the restaurant, but also noticed many tourists and omnivores giving seitan a try for
+        the first time.</p>
+
+    <p>As a vegan himself, Anbessa favours wholefoods in his diet and often prepares his own meat alternatives, tempeh,
+        rather than purchasing them from the supermarkets due to limited choices. He explains: “One of the advantages of
+        the seitan we offer in our restaurant is its high protein content, which provides essential nutrients for
+        vegans, vegetarians, and even bodybuilders.”</p>
+
+    <!-- vegan hamburger -->
+
+    <img src="hamburger.jpg" class="s-img">
+
+    <figcaption>Temple of Seitan's vegetarian chicken burger, made with "seitan" as the alternative protein source.
+    </figcaption>
+
+    <h3>
+        <p>To A More Sustainable Dining Table</p>
+
+    </h3>
+
+    <p>Instead of solely eyeing on the traditional meat competitors and innovating their alternatives for vegan or
+        vegetarian meals, Marco Bertacca, CEO of Quorn, is rethinking the future of their products following the
+        downfall.</p>
+
+    <p>“We now find ourselves collaborating to offer less-meat options to consumers who are looking to reduce meat
+        consumption, but not eat vegetarian or vegan meals.” Bertacca says, noting this approach caters to the majority
+        and presents a significant opportunity to reduce carbon emissions in the food system and improve public health.
+    </p>
+
+    <p>Another popular sustainable choice is claimed to be cultivated meat, also known as lab-grown meat, aims to
+        effectuate
+        meat production without having an animal slaughtered and emitting substantial carbon emissions.</p>
+
+    <p>Ivy Farm Technologies, one of the earliest cultivated meat companies and sponsored by Oxford University, has
+        successfully produced chicken, pork, beef, and even duck meat in laboratories.</p>
+
+    <p>
+        Riley Jackson, Partnerships and Marketing Manager at Ivy Farm Technologies describes the process: “Producing
+        cultivated meat is similar to taking a cutting from a plant and providing it with all the nutrients and the
+        environment to grow.” She emphasises the highly monitored and regulated nature of the process, dramatically
+        reducing risks of contamination compared to traditional farming methods.</p>
+
+    <p>Before joining Ivy Farm Technologies, Jackson also worked at a plant-based meat company. She acknowledges that
+        “plant-based meat has come a really long way, but has not yet lived up to the promises of tasting as good or
+        better than meat from a cow or a pig”.</p>
+
+    <img src="supermarket2.jpg" class="s-img">
+
+    <figcaption>Waitrose offers a wide range of plant-based meat products, while cultivated meat producers argue these
+        options don't fully meet consumer needs.
+    </figcaption>
+
+    <p>Protein alternative has also become one of the UK government’s resort to achieve Net Zero goals. However, the
+        controversy surrounding cultivated meat remains unsettled, with only three countries—Singapore, the
+        US, and Israel—having approved it for human consumption.</p>
+
+    <p>Ivy Farm Technologies, along with other cultivated meat companies, is collaborating closely with the UK
+        government to secure approval from the Food Standards Agency (FSA). Jackson anticipates that cultivated meat
+        will be officially approved in the UK <b>next year</b>, but acknowledges that it will take several more years
+        for their
+        products to be mass-produced and available on the market.</p>
+
+    <p>While plant-based and cultivated meats offer promising solutions for reducing environmental impact, their success
+        depends on overcoming current challenges such as cost and taste. To achieve sustainability by shifting dietary
+        habits and reducing meat intake, safe meat alternative choices are proven to be what consumers need for cutting
+        down carbon emission. </p>
+
+    <!-- footer -->
+    <div class="footer">
+        <h4>MA/MSc Digital Journalism, Goldsmiths, University of London</h4>
+        <img src="https://bpando.org/wp-content/uploads/13-Goldsmiths-Logotype-Spy-BPO.jpg">
+    </div>
+
+</body>
+
+</html>
